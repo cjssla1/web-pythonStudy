@@ -7,3 +7,11 @@ html 문법
 <br> 안 닫고 사용, 줄바꿈
 <p></p> 단락 나누기, 줄바꿈됨
 <img src="이미지 주소" width="100%"> 이미지 표시
+
+<title></title> 웹페이지 제목
+<meta charset="utf-8"> 인코딩 선택
+
+<!doctype html>
+<html></html> html 내용
+<head></head> 본문을 설명하는 태그
+<body></body> 본문 실제 내용
