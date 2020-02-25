@@ -15,3 +15,14 @@ html 문법
 <html></html> html 내용
 <head></head> 본문을 설명하는 태그
 <body></body> 본문 실제 내용
+<a href="naver.com주소" target="_blank" title="툴팁"></a> 링크 새탭으로 염
+
+
+git hub 웹 호스팅:
+깃 허브에 html 저장
+github pages -> source -> master branch로 변경
+
+window 웹서버 프로그램 - WAMP
+
+<iframe width="크기" height="크기" src="주소" frameborder="0" allowfullscreen></iframe> 동영상 추가
+댓글 기능 추가 DISQUS 
