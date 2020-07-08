@@ -1,0 +1,47 @@
+
+몫과 나머지 구하는 함수
+divmod(a, b) => a//b, a%b를 반환
+
+
+진법 변환
+int(num, base)
+num은 str, base는 진수 반환값은 10진수
+ex) num: '110', base: 2 => 6
+
+
+str문자열 정렬
+s = '123213'    # 정렬할 내용
+n = 10         #전체 길이
+
+s.ljust(n)    # 좌측 정렬
+s.center(n)   # 가운데 정렬
+s.rjust(n)    # 우측 정렬
+
+
+sorted 사용시 기존 데이터를 바꾸지 않고 새로운 정렬된 데이터를 반환함
+
+
+zip 함수 : 여러 리스트를 합하여 반환
+mylist = [ 1,2,3 ]
+new_list = [ 40, 50, 60 ]
+for i in zip(mylist, new_list):
+    print (i)
+
+(1, 40)
+(2, 50)
+(3, 60)
+
+
+map 함수 : 모든 멤버의 type 변환하기
+list1 = ['1', '100', '33']
+list2 = list(map(int, list1))
+
+
+join 함수 : 멤버를 하나로 이어붙이기
+my_list = ['1', '100', '33']
+answer = ''.join(my_list)
+
+* 연산 : 특정값 반복
+n: 2 #정수
+s: '123'
+s*n = '123123'
